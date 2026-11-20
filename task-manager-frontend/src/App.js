@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = process.env.VITE_API_URI || "https://project-management-dashboard-w2zm.onrender.com/task";
+const API = process.env.VITE_API_URI || "https://project-management-dashboard-w2zm.onrender.com/tasks";
 const STATUSES = ["Pending", "Ongoing", "Completed"];
 
 export default function App() {
